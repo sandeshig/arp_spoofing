@@ -1,0 +1,22 @@
+{
+    "refresh_interval": 5,
+    "sniff_timeout": 1,
+    "alert_sound": true,
+    "desktop_notifications": true,
+    "auto_export": false,
+    "auto_export_format": "csv",
+    "theme": "dark",
+    "network_adapter": "Wi-Fi",
+    "authorized_devices": [
+        {
+            "ip": "192.168.1.215",
+            "mac": "68:07:15:C9:B8:73",
+            "label": ""
+        }
+    ],
+    "gratuitous_arp_threshold": 5,
+    "flood_threshold": 30,
+    "duplicate_ip_grace_seconds": 2,
+    "max_log_lines_in_memory": 2000,
+    "live_probe_interval": 6
+}

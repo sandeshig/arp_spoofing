@@ -1,0 +1,59 @@
+{"timestamp": "2026-07-28 15:09:48", "level": "INFO", "source": "main", "message": "Application starting."}
+{"timestamp": "2026-07-28 15:09:53", "level": "INFO", "source": "detector", "message": "ARP detector started on interface ''."}
+{"timestamp": "2026-07-28 15:09:55", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.215 (68:07:15:C9:B8:73)."}
+{"timestamp": "2026-07-28 15:10:08", "level": "INFO", "source": "detector", "message": "ARP detector stop requested."}
+{"timestamp": "2026-07-28 15:10:20", "level": "INFO", "source": "detector", "message": "ARP detector started on interface 'Wi-Fi'."}
+{"timestamp": "2026-07-28 15:10:21", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.68 (CC:64:1A:C3:87:2C)."}
+{"timestamp": "2026-07-28 15:10:21", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.81 (6E:78:0D:A8:2F:6D)."}
+{"timestamp": "2026-07-28 15:10:21", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.93 (8A:2F:E7:78:D7:F6)."}
+{"timestamp": "2026-07-28 15:10:21", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.117 (9A:16:86:74:51:24)."}
+{"timestamp": "2026-07-28 15:10:22", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.207 (88:75:98:ED:4A:83)."}
+{"timestamp": "2026-07-28 15:10:22", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.254 (90:03:2E:E1:EF:C2)."}
+{"timestamp": "2026-07-28 15:10:26", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.65 (FC:23:CD:85:47:69)."}
+{"timestamp": "2026-07-28 15:10:26", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.66 (84:FC:14:84:1E:79)."}
+{"timestamp": "2026-07-28 15:10:26", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.67 (CC:64:1A:C3:8E:1B)."}
+{"timestamp": "2026-07-28 15:10:32", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.64 (4C:24:CE:68:34:F2)."}
+{"timestamp": "2026-07-28 15:10:53", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.108 (A2:34:21:0E:66:27)."}
+{"timestamp": "2026-07-28 15:11:19", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.135 (E6:23:53:69:ED:2D)."}
+{"timestamp": "2026-07-28 15:12:34", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.171 (52:80:71:16:04:49)."}
+{"timestamp": "2026-07-28 15:12:51", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.205 (F2:00:3B:69:2C:CD)."}
+{"timestamp": "2026-07-28 15:14:53", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.179 (A8:9C:ED:1C:1D:53)."}
+{"timestamp": "2026-07-28 15:16:53", "level": "INFO", "source": "detector", "message": "ARP detector stop requested."}
+{"timestamp": "2026-07-28 15:16:59", "level": "INFO", "source": "main", "message": "Application closed."}
+{"timestamp": "2026-07-29 13:21:21", "level": "INFO", "source": "main", "message": "Application starting."}
+{"timestamp": "2026-07-29 13:21:40", "level": "INFO", "source": "detector", "message": "ARP detector started on interface ''."}
+{"timestamp": "2026-07-29 13:22:08", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.251 (D6:27:71:61:01:E9)."}
+{"timestamp": "2026-07-29 13:22:38", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.77 (11:22:33:44:55:66)."}
+{"timestamp": "2026-07-29 13:22:39", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.50 changed from MAC AA:BB:CC:00:00:50 to DE:AD:BE:EF:00:66."}
+{"timestamp": "2026-07-29 13:22:40", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.1 changed from MAC AA:BB:CC:00:00:01 to DE:AD:BE:EF:00:66."}
+{"timestamp": "2026-07-29 13:22:40", "level": "CRITICAL", "source": "detector", "message": "CRITICAL: Device DE:AD:BE:EF:00:66 is impersonating the gateway (192.168.1.1). Expected MAC AA:BB:CC:00:00:01. Possible Man-in-the-Middle attack."}
+{"timestamp": "2026-07-29 13:22:41", "level": "WARNING", "source": "detector", "message": "High rate of gratuitous ARP announcements from DE:AD:BE:EF:00:66 (192.168.1.1): 5 in the last second."}
+{"timestamp": "2026-07-29 13:22:42", "level": "CRITICAL", "source": "detector", "message": "ARP broadcast storm detected: 30 replies/sec across the network (threshold 30)."}
+{"timestamp": "2026-07-29 13:22:44", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.198 (86:E9:B5:34:5E:AA)."}
+{"timestamp": "2026-07-29 13:22:56", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.206 (9A:C2:DF:4D:E4:D8)."}
+{"timestamp": "2026-07-29 13:23:01", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.216 (62:9D:E2:EF:20:53)."}
+{"timestamp": "2026-07-29 13:23:08", "level": "INFO", "source": "detector", "message": "ARP detector stop requested."}
+{"timestamp": "2026-07-29 13:23:15", "level": "INFO", "source": "main", "message": "Application closed."}
+{"timestamp": "2026-07-29 15:17:30", "level": "INFO", "source": "main", "message": "Application starting."}
+{"timestamp": "2026-07-29 15:21:50", "level": "INFO", "source": "detector", "message": "ARP detector started on interface 'Wi-Fi'."}
+{"timestamp": "2026-07-29 15:21:51", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.103 changed from MAC AA:CC:EE:00:00:03 to D2:B1:9F:2E:2C:75."}
+{"timestamp": "2026-07-29 15:21:51", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.204 (8A:C2:3A:47:B8:C8)."}
+{"timestamp": "2026-07-29 15:21:51", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.208 (76:A5:A8:89:F0:8A)."}
+{"timestamp": "2026-07-29 15:22:13", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.195 (62:9D:E2:EF:20:53)."}
+{"timestamp": "2026-07-29 15:22:58", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.225 (7E:6F:C3:73:6B:E8)."}
+{"timestamp": "2026-07-29 15:24:23", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.218 (E6:3C:DB:40:4B:D6)."}
+{"timestamp": "2026-07-29 15:26:17", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.217 (86:BF:C5:AA:46:E3)."}
+{"timestamp": "2026-07-29 15:28:09", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.172 (B6:12:9B:11:11:37)."}
+{"timestamp": "2026-07-29 15:29:05", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.146 (72:D2:37:61:19:B5)."}
+{"timestamp": "2026-07-29 15:30:07", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.209 (AA:A6:EF:33:97:BA)."}
+{"timestamp": "2026-07-29 15:30:36", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.230 (26:AF:B1:AE:D6:48)."}
+{"timestamp": "2026-07-29 15:38:35", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.128 changed from MAC AA:CC:EE:00:00:1C to 68:07:15:C9:B8:73."}
+{"timestamp": "2026-07-29 15:39:53", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.195 changed from MAC 62:9D:E2:EF:20:53 to FE:72:60:9C:4A:D0."}
+{"timestamp": "2026-07-29 15:40:46", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.195 changed from MAC FE:72:60:9C:4A:D0 to 62:9D:E2:EF:20:53."}
+{"timestamp": "2026-07-29 15:42:57", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.195 changed from MAC 62:9D:E2:EF:20:53 to FE:72:60:9C:4A:D0."}
+{"timestamp": "2026-07-29 15:43:51", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.167 (0E:27:A8:05:E0:4E)."}
+{"timestamp": "2026-07-29 15:43:52", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.195 changed from MAC FE:72:60:9C:4A:D0 to 62:9D:E2:EF:20:53."}
+{"timestamp": "2026-07-29 15:44:18", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.232 (62:9D:E2:EF:20:53)."}
+{"timestamp": "2026-07-29 15:44:56", "level": "WARNING", "source": "detector", "message": "Possible ARP spoofing: 192.168.1.195 changed from MAC 62:9D:E2:EF:20:53 to FE:72:60:9C:4A:D0."}
+{"timestamp": "2026-07-29 15:48:57", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.72 (32:8C:DD:CC:18:15)."}
+{"timestamp": "2026-07-29 15:51:28", "level": "INFO", "source": "detector", "message": "New/unauthorized device joined the network: 192.168.1.150 (32:B0:FA:66:41:D9)."}
