@@ -1,0 +1,38 @@
+# ARP Monitor - Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# IMPORTANT - tkinter is NOT listed below because it is part of the Python
+# standard library, not a pip package - "pip install tkinter" does not work.
+#   - Windows / macOS (python.org installer): already included.
+#   - Linux: often stripped from the base install. If "import tkinter" fails,
+#     install it at the OS level:
+#       Debian/Ubuntu : sudo apt install python3-tk
+#       Fedora        : sudo dnf install python3-tkinter
+#       Arch          : sudo pacman -S tk
+#
+# Other notes:
+# - scapy requires Npcap (Windows: https://npcap.com/) or libpcap (Linux/macOS)
+#   to be installed at the OS level for raw packet capture to work. Npcap is
+#   the actively-maintained successor to WinPcap (which has been unsupported
+#   since 2013) - install it with "WinPcap API-compatible mode" checked.
+#   The free Npcap installer is fine here since it's installed directly by
+#   each user, not bundled/redistributed inside this project.
+# - The application must be run with Administrator (Windows) or root/sudo
+#   (Linux/macOS) privileges for LIVE ARP sniffing/scanning specifically.
+#   The in-app Demo Mode (Dashboard -> Run Demo Scenario) does NOT need
+#   elevated privileges - it builds scapy packet objects in memory only
+#   and never opens a raw socket, so scapy must still be installed but
+#   Npcap/root access is not required just to run the demo.
+# - ttkbootstrap provides the dark/light theme; without it the app still
+#   runs, just with plain unstyled Tk/ttk widgets.
+# - networkx powers the Network Topology chart on the Graphs tab.
+# - plyer is optional; desktop notifications are silently skipped if it's
+#   not installed.
+
+scapy>=2.5.0
+psutil>=5.9.0
+ttkbootstrap>=1.10.1
+matplotlib>=3.8.0
+networkx>=3.2
+reportlab>=4.0.0
+plyer>=2.1.0
